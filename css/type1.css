@@ -6,12 +6,16 @@ body li {
   list-style: none;
 }
 
+#hd .gnb .d1:hover ul {
+  display: block;
+}
 #hd .gnb .d1 .gnb_d1_a {
   font-size: 1.2em;
 }
 #hd .gnb .d1 ul {
   min-width: 80px;
   white-space: nowrap;
+  display: none;
 }
 #hd .gnb .d1 ul li a {
   font-size: 0.9rem;
