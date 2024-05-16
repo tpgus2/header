@@ -1,0 +1,29 @@
+body{
+    a{  color: black; 
+        text-decoration: none;}
+    li {list-style: none;}
+}
+#hd{
+    .gnb{
+        .d1{
+            .gnb_d1_a{
+                font-size: 1.2em;
+            }
+            ul{
+                //소메뉴
+                min-width: 80px;
+                white-space: nowrap;
+
+                li{
+                    a{
+                        font-size: 0.9rem;
+                        color: white;
+                    }
+                }
+            }
+            .gnb_d1_ul{
+                left: -3rem;
+            }
+        }
+    }
+}
