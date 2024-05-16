@@ -6,8 +6,8 @@ body li {
   list-style: none;
 }
 
-#hd .gnb .d1:hover ul {
-  max-height: 180px;
+#hd .gnb:hover ul {
+  max-height: 180px !important;
 }
 #hd .gnb .d1 .gnb_d1_a {
   font-size: 1.2em;

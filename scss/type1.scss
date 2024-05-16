@@ -5,13 +5,12 @@ body{
 }
 #hd{
     .gnb{
-        .d1{
-            //대메뉴li
-            &:hover{
-                ul{
-                    max-height: 180px; 
-                }
+        &:hover{
+            ul{
+                max-height: 180px !important; 
             }
+        }
+        .d1{
             .gnb_d1_a{
                 //대메뉴
                 font-size: 1.2em;
